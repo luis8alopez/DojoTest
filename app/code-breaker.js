@@ -1,7 +1,7 @@
 var NumberToBreak = "";
 var ERROR = 'ERROR';
 module.exports = {
-  codeBreaker:function(number){
+  guess:function(number){
     let resultX = '', result_ = '';
     if(number === undefined)
       return ERROR;
